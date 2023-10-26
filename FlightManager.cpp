@@ -18,7 +18,7 @@ Flight FlightManager::GetFlight(int id)
 			return m_Flights[i];
 		}
 	}
-	return NULL;
+	return Flight();
 }
 
 vector<Flight> FlightManager::GetFlights(string lastName)
